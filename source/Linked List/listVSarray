@@ -1,0 +1,14 @@
+The main difference between arrays and linked lists is memory allocation. An array instantiates a fixed block of memory based on the size we define in its declaration.
+
+On the other hand, linked lists can access or release memory based on the addition and deletion elements. Its size is not fixed.
+
+Other differences can be observed in the way elements are inserted and deleted. As for linked list, insertion, and deletion happens in a constant amount of time while in case of arrays it takes O(n) time to insert or delete a value because you have to shift the array elements left or right after that operation. But in case of searching an element, for an array it takes constant time to access an index while in case of a linked list you will have to iterate the list from start till you find the node with the correct value.
+
+Apart from memory allocation, there are some differences in performance between linked lists and arrays:
+
+Operation		   Linked List	Array
+Access				    O(n)	    O(1)
+Insert(at head)		O(1)	    O(n)
+Delete(at head)		O(1)	    O(n)
+Insert (at tail)	O(n)	    O(n)
+Delete (at tail)	O(n)	    O(n)
